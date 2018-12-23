@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta charset="UTF-8">
+    <script src="/bootstrap/js/jquery-1.11.2.js"></script>
+    <!--<script src="static/jquery-validation/lib/jquery-1.11.1.js"></script>-->
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css"/>
+    <script src="/bootstrap/js/bootstrap.js"></script>
+    <!--<script src="/js/bootbox.js"></script>-->
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css"/>
+    <link href="/bootstrap-fileinput/css/fileinput.css" rel="stylesheet"/>
+    <script src="/bootstrap-fileinput/js/fileinput.js"></script>
+    <script src="/bootstrap-fileinput/js/locales/zh.js"></script>
+    <script src="/myJs/dmpFileUpload.js"></script>
+    <title>dmp文件上传</title>
+</head>
+<body>
+<!--<div id="import" class="modal fade bs-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">-->
+    <div class="modal-dialog modal-lg" style="height: 300px">
+        <div class="modal-content">
+            <div class="modal-header bg-primary">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                <h4 class="modal-title">dmp文件导入Oracle库</h4>
+            </div>
+            <div class="modal-body">
+                <form id="ffImport" method="post">
+                    <div title="dmp文件导入操作" style="padding: 5px">
+                        <input type="hidden" id="AttachGUID" name="AttachGUID" />
+                        <input id="dmpFile" name="file" multiple type="file" data-show-caption="true">
+                    </div>
+                </form>
+                <div id="response">
+                </div>
+                <hr/>
+            </div>
+
+        </div>
+    </div>
+<!--</div>-->
+</body>
+</html>

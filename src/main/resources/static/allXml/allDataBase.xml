@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AllDataBase>
+    <dataSource DataId="29328392">
+        <DataName>null</DataName>
+        <UserName>root</UserName>
+        <PassWord>root</PassWord>
+        <ToUser>scott</ToUser>
+        <FromUser>syndg</FromUser>
+        <JdbcUrl>192.168.63.227:22/orcl</JdbcUrl>
+    </dataSource>
+    <dataSource DataId="2932833232">
+        <DataName>null</DataName>
+        <UserName>root</UserName>
+        <PassWord>root</PassWord>
+        <ToUser>scott</ToUser>
+        <FromUser>syndg</FromUser>
+        <JdbcUrl>192.168.63.227:22/orcl</JdbcUrl>
+    </dataSource>
+    <dataSource DataId="bb4c190eaac1475997972fa00ea5f207">
+        <DataName>标准比对</DataName>
+        <UserName>syndg</UserName>
+        <PassWord>syndg</PassWord>
+        <ToUser>scott</ToUser>
+        <FromUser>syndg</FromUser>
+        <JdbcUrl>192.168.63.86:1521/orcl</JdbcUrl>
+    </dataSource>
+</AllDataBase>

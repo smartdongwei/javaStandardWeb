@@ -1,0 +1,13 @@
+.table-all{
+    margin-top: 10px;
+    margin-left: 25px;
+    height:600px;
+    width: 95%;
+    box-shadow: 0px 0px 20px 1px #ccc;
+    border: 1px solid #e0e0e0;
+}
+.tableCss{
+    margin-top:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

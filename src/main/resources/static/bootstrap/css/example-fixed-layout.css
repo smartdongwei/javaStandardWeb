@@ -1,0 +1,25 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.nav li {
+    padding-top: 5px;
+}
+.leaderboard {
+     width:1365px;
+     height:63px;
+     background: url("/img/top_bg.png")no-repeat;
+ }
+.leaderboard h1 {
+    font-size: 40px;
+    margin-bottom: 5px;
+    line-height: 1;
+    letter-spacing: -1px;
+    color:#FF6600;
+}
+.leaderboard p {
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 27px;
+}
+
